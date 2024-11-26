@@ -1,0 +1,87 @@
+/* Cambia el color del navbar a los colores deseados */
+.navbar {
+    background-color: #5F9EA0 !important; /* Color verde azulado */
+}
+
+.color {
+    background-color: #6495ED; /* Color azul claro */
+}
+
+/* Otros estilos relacionados */
+.navbar-brand {
+    padding-right: 150px; 
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #5F9EA0; /* Usar el mismo color que el navbar */
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para la sección de derechos de autor */
+.copyright, .copy {
+    bottom: 0;
+    width: 100%;
+    background-color: #5F9EA0; /* Color de fondo */
+    color: #3D1800;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos adicionales */
+.boton {
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #76ff03;
+}
+
+/* Tabla de registros */
+#tablaRegistros {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #5d2417;
+    background-color: #8B4513;
+}
+
+#tablaRegistros th {
+    background-color: #107acc;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#tablaRegistros td {
+    padding: 8px;
+    border: 1px solid #5d2417;
+    background-color: #81c9fa;
+    color: black;
+    text-align: center;
+}
+
+#tablaRegistros tbody tr:nth-child(odd) {
+    background-color: #5d2417;
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.form-container form {
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}

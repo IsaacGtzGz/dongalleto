@@ -1,0 +1,44 @@
+body {
+    background-color: #efb07d;
+    overflow-x: hidden;
+}
+.login-container {
+    margin-top: 10%; /* Ajustado para un mayor margen superior */
+}
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo transparente */
+    padding: 50px; /* Aumento del espacio interno */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); /* Aumento del desenfoque de la sombra */
+}
+.login-form h2 {
+    margin-bottom: 40px; /* Ajuste del espacio entre el título y el formulario */
+}
+.avatar {
+    width: 120px; /* Ajuste del tamaño del avatar */
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 30px; /* Aumento del margen inferior */
+    display: block;
+}
+.form-control {
+    border-radius: 20px; /* Bordes redondeados para los campos */
+}
+.btn-primary {
+    border-radius: 20px; /* Bordes redondeados para el botón */
+    padding: 12px 30px; /* Aumento del relleno */
+}
+.forgot-password {
+    text-align: center; /* Centra el enlace */
+}
+
+.copyright {
+    position: fixed; /* Fija la posición */
+    bottom: 0; /* Alinea al final de la ventana */
+    width: 100%; /* Ocupa todo el ancho */
+    background-color: #3d1800; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+

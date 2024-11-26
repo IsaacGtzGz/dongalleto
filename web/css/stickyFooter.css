@@ -1,0 +1,37 @@
+/* Estilos CSS personalizados */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Montserrat", sans-serif; /* Usar la fuente de Google Fonts */
+}
+
+.wrapper {
+    min-height: calc(100vh - 100px); /* Altura mínima de la pantalla menos la altura del pie de página */
+}
+
+.footer {
+    height: 100px;
+    background-color: #343a40; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color del texto del pie de página */
+}
+
+.card-title {
+    color: #007bff; /* Color del título de la tarjeta */
+}
+
+.navbar {
+    background-color: #007bff !important; /* Color de fondo de la barra de navegación */
+    color: #ffffff; /* Color del texto de la barra de navegación */
+}
+
+/* Estilos de las tarjetas */
+.card {
+    background-color: #f8f9fa; /* Color de fondo de la tarjeta */
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Borde de la tarjeta */
+    border-radius: 12px; /* Radio de borde de la tarjeta */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
+}
+
+.card-body {
+    padding: 1.5rem; /* Espaciado interno del cuerpo de la tarjeta */
+}

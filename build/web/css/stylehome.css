@@ -1,0 +1,54 @@
+                /* Estilos CSS del diseño */
+body {
+    background: #111; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    font-family: 'Quicksand', sans-serif; /* Fuente Quicksand */
+    text-align: center; /* Centrar el texto */
+    padding-top: 50px; /* Añadir espacio superior */
+    margin: 0; /* Eliminar margen predeterminado */
+}
+.container {
+    display: flex; /* Mostrar como flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    flex-direction: column; /* Colocar los elementos en columna */
+    min-height: 100vh; /* Altura mínima de la ventana */
+}
+h2 {
+    font-size: 36px; /* Tamaño de fuente para dispositivos móviles */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+}
+p {
+    font-size: 18px; /* Tamaño de fuente para dispositivos móviles */
+    margin-bottom: 30px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+}
+button {
+    background-color: #ffcc00; /* Color de fondo del botón */
+    color: #000000; /* Color de texto del botón */
+    border: none; /* Eliminar borde */
+    padding: 10px 20px; /* Padding interno */
+    font-size: 18px; /* Tamaño de fuente para dispositivos móviles */
+    cursor: pointer; /* Cursor apuntador */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra en el botón */
+    transition: background-color 0.3s ease; /* Transición suave */
+    margin-top: 20px; /* Espacio superior */
+}
+button:hover {
+    background-color: #ffe066; /* Cambio de color al pasar el mouse */
+}
+
+@media only screen and (min-width: 768px) {
+    /* Estilos adicionales para dispositivos con un ancho mínimo de 768px (tabletas y escritorio) */
+    h2 {
+        font-size: 48px; /* Tamaño de fuente para tableta y escritorio */
+    }
+    p {
+        font-size: 24px; /* Tamaño de fuente para tableta y escritorio */
+    }
+    button {
+        font-size: 24px; /* Tamaño de fuente para tableta y escritorio */
+    }
+}
